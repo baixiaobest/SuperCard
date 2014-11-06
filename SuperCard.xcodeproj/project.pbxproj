@@ -14,6 +14,7 @@
 		A973C00E1A0C13340006207B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A973C00D1A0C13340006207B /* Images.xcassets */; };
 		A973C0111A0C13340006207B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A973C00F1A0C13340006207B /* LaunchScreen.xib */; };
 		A973C01D1A0C13340006207B /* SuperCardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A973C01C1A0C13340006207B /* SuperCardTests.m */; };
+		A973C0281A0C160D0006207B /* PlayingCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = A973C0271A0C160D0006207B /* PlayingCardView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		A973C0161A0C13340006207B /* SuperCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A973C01B1A0C13340006207B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A973C01C1A0C13340006207B /* SuperCardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperCardTests.m; sourceTree = "<group>"; };
+		A973C0261A0C160D0006207B /* PlayingCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCardView.h; sourceTree = "<group>"; };
+		A973C0271A0C160D0006207B /* PlayingCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +84,11 @@
 		A973BFFF1A0C13340006207B /* SuperCard */ = {
 			isa = PBXGroup;
 			children = (
-				A973C0041A0C13340006207B /* AppDelegate.h */,
-				A973C0051A0C13340006207B /* AppDelegate.m */,
 				A973C0071A0C13340006207B /* ViewController.h */,
 				A973C0081A0C13340006207B /* ViewController.m */,
 				A973C00A1A0C13340006207B /* Main.storyboard */,
+				A973C0261A0C160D0006207B /* PlayingCardView.h */,
+				A973C0271A0C160D0006207B /* PlayingCardView.m */,
 				A973C00D1A0C13340006207B /* Images.xcassets */,
 				A973C00F1A0C13340006207B /* LaunchScreen.xib */,
 				A973C0001A0C13340006207B /* Supporting Files */,
@@ -96,6 +99,8 @@
 		A973C0001A0C13340006207B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A973C0041A0C13340006207B /* AppDelegate.h */,
+				A973C0051A0C13340006207B /* AppDelegate.m */,
 				A973C0011A0C13340006207B /* Info.plist */,
 				A973C0021A0C13340006207B /* main.m */,
 			);
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A973C0091A0C13340006207B /* ViewController.m in Sources */,
+				A973C0281A0C160D0006207B /* PlayingCardView.m in Sources */,
 				A973C0061A0C13340006207B /* AppDelegate.m in Sources */,
 				A973C0031A0C13340006207B /* main.m in Sources */,
 			);
